@@ -1,0 +1,34 @@
+{
+  "max_fidelity": {
+    "idx": 937,
+    "fidelity": 0.8656269830232268,
+    "rate_log": 9.6966423999662,
+    "latency": 0.004063239971112227,
+    "coverage": 0.012525252525252526,
+    "n_edges_raw": 37,
+    "n_edges_effective": 36
+  },
+  "max_coverage": {
+    "idx": 0,
+    "fidelity": 0.6160526578091021,
+    "rate_log": 3.5246104453794156,
+    "latency": 0.06293130106655478,
+    "coverage": 0.2632323232323232,
+    "n_edges_raw": 1755,
+    "n_edges_effective": 1221
+  },
+  "knee_point": {
+    "idx": 143,
+    "fidelity": 0.7538496089657442,
+    "rate_log": 6.446323521834377,
+    "latency": 0.01877127486946805,
+    "coverage": 0.17272727272727273,
+    "n_edges_raw": 882,
+    "n_edges_effective": 709
+  },
+  "rgg_5000km": {
+    "n_edges_raw": 1356,
+    "n_edges_effective": 1356
+  },
+  "note": "n_edges_raw counts each (city-pair, medium) separately -- a pair with both fibre and satellite counts twice. n_edges_effective collapses parallel media per pair to the single highest-fidelity one (unique city pairs actually routed over); this is the figure captions' |E| and the only one directly comparable to classical baselines, which have one medium per pair by construction. External review (ChatGPT Round 13, finding #14)."
+}

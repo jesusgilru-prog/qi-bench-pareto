@@ -1,0 +1,201 @@
+index,city,country,latitude,longitude,region,coordinate_source
+0,Madrid,ES,40.4168,-3.7038,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+1,Barcelona,ES,41.3851,2.1734,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+2,Lisbon,PT,38.7223,-9.1393,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+3,Paris,FR,48.8566,2.3522,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+4,London,GB,51.5074,-0.1278,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+5,Amsterdam,NL,52.3676,4.9041,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+6,Brussels,BE,50.8503,4.3517,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+7,Berlin,DE,52.52,13.405,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+8,Munich,DE,48.1351,11.582,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+9,Hamburg,DE,53.5511,9.9937,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+10,Frankfurt am Main,DE,50.1109,8.6821,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+11,Zurich,CH,47.3769,8.5417,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+12,Geneve,CH,46.2044,6.1432,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+13,Vienna,AT,48.2082,16.3738,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+14,Prague,CZ,50.0755,14.4378,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+15,Warsaw,PL,52.2297,21.0122,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+16,Copenhagen,DK,55.6761,12.5683,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+17,Stockholm,SE,59.3293,18.0686,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+18,Oslo,NO,59.9139,10.7522,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+19,Helsinki,FI,60.1699,24.9384,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+20,Dublin,IE,53.3498,-6.2603,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+21,Rome,IT,41.9028,12.4964,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+22,Milano,IT,45.4642,9.19,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+23,Athens,GR,37.9838,23.7275,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+24,Budapest,HU,47.4979,19.0402,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+25,Bucharest,RO,44.4268,26.1025,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+26,Sofia,BG,42.6977,23.3219,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+27,Edinburgh,GB,55.9533,-3.1883,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+28,Delft,NL,52.0116,4.3571,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+29,Innsbruck,AT,47.2692,11.4041,Europe,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+30,New York City,US,40.7128,-74.006,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+31,Boston,US,42.3601,-71.0589,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+32,"Washington, D.C.",US,38.9072,-77.0369,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+33,Chicago,US,41.8781,-87.6298,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+34,Atlanta,US,33.749,-84.388,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+35,Miami,US,25.7617,-80.1918,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+36,Houston,US,29.7604,-95.3698,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+37,Dallas,US,32.7767,-96.797,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+38,Denver,US,39.7392,-104.9903,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+39,Los Angeles,US,34.0522,-118.2437,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+40,San Francisco,US,37.7749,-122.4194,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+41,Seattle,US,47.6062,-122.3321,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+42,Vancouver,CA,49.2827,-123.1207,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+43,Toronto,CA,43.6532,-79.3832,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+44,Montreal,CA,45.5017,-73.5673,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+45,Mexico City,MX,19.4326,-99.1332,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+46,Oak Ridge,US,35.9606,-84.2073,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+47,Darien,US,41.712,-87.9799,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+48,Pasadena,US,34.1478,-118.1445,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+49,Princeton,US,40.3573,-74.6672,North America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+50,Beijing,CN,39.9042,116.4074,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+51,Shanghai,CN,31.2304,121.4737,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+52,Hefei,CN,31.8206,117.2272,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+53,Jinan,CN,36.6512,117.1201,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+54,Kowloon,HK,22.3193,114.1694,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+55,Shenzhen,CN,22.5431,114.0579,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+56,Guangzhou,CN,23.1291,113.2644,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+57,Chengdu,CN,30.5728,104.0668,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+58,Wuhan,CN,30.5928,114.3055,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+59,Xi'an,CN,34.3416,108.9398,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+60,Tokyo,JP,35.6762,139.6503,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+61,Osaka,JP,34.6937,135.5023,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+62,Seoul,KR,37.5665,126.978,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+63,Taipei,TW,25.033,121.5654,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+64,Singapore,SG,1.3521,103.8198,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+65,Bangkok,TH,13.7563,100.5018,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+66,Kuala Lumpur,MY,3.139,101.6869,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+67,Jakarta,ID,-6.2088,106.8456,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+68,Manila,PH,14.5995,120.9842,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+69,Hanoi,VN,21.0278,105.8342,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+70,Mumbai,IN,19.076,72.8777,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+71,Delhi,IN,28.7041,77.1025,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+72,Bangalore,IN,12.9716,77.5946,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+73,Sydney,AU,-33.8688,151.2093,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+74,Melbourne,AU,-37.8136,144.9631,Asia-Pacific,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+75,Istanbul,TR,41.0082,28.9784,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+76,Dubai,AE,25.2048,55.2708,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+77,Abu Dhabi,AE,24.4539,54.3773,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+78,Doha,QA,25.2854,51.531,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+79,Riyadh,SA,24.7136,46.6753,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+80,Tel Aviv,IL,32.0853,34.7818,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+81,Jerusalem,IL,31.7683,35.2137,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+82,Cairo,EG,30.0444,31.2357,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+83,Tehran,IR,35.6892,51.389,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+84,Lagos,NG,6.5244,3.3792,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+85,Nairobi,KE,-1.2921,36.8219,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+86,Johannesburg,ZA,-26.2041,28.0473,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+87,Cape Town,ZA,-33.9249,18.4241,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+88,Casablanca,MA,33.5731,-7.5898,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+89,Gelemso,ET,9.145,40.4897,Middle East/Africa,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+90,Sao Paulo,BR,-23.5505,-46.6333,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+91,Rio de Janeiro,BR,-22.9068,-43.1729,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+92,Buenos Aires,AR,-34.6037,-58.3816,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+93,Santiago,CL,-33.4489,-70.6693,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+94,Lima,PE,-12.0464,-77.0428,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+95,Bogota,CO,4.711,-74.0721,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+96,Caracas,VE,10.4806,-66.9036,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+97,Quito,EC,-0.1807,-78.4678,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+98,Brasilia,BR,-15.8267,-47.9218,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+99,Montevideo,UY,-34.9011,-56.1745,South America,reverse-geocoded (reverse_geocoder pkg) from the coordinate hard-coded in bdcz_oracle_v3.py CITIES
+100,Lyon,FR,45.74906,4.84789,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+101,Marseille,FR,43.29695,5.38107,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+102,Toulouse,FR,43.60426,1.44367,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+103,Cologne,DE,50.93333,6.95,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+104,Stuttgart,DE,48.78232,9.17702,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+105,Dusseldorf,DE,51.22319,6.77927,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+106,Leipzig,DE,51.33962,12.37129,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+107,Rotterdam,NL,51.9225,4.47917,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+108,The Hague,NL,52.07667,4.29861,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+109,Antwerp,BE,51.22047,4.40026,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+110,Bern,CH,46.94809,7.44744,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+111,Basel,CH,47.55839,7.57327,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+112,Turin,IT,45.07049,7.68682,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+113,Naples,IT,40.85216,14.26811,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+114,Venice,IT,45.43713,12.33265,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+115,Florence,IT,43.77925,11.24626,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+116,Porto,PT,41.1485,-8.61097,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+117,Valencia,ES,39.47391,-0.37966,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+118,Seville,ES,37.38283,-5.97317,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+119,Bilbao,ES,43.26271,-2.92528,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+120,Krakow,PL,50.06143,19.93658,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+121,Gdansk,PL,54.35227,18.64912,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+122,Bratislava,SK,48.14816,17.10674,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+123,Ljubljana,SI,46.05108,14.50513,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+124,Zagreb,HR,45.81444,15.97798,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+125,Belgrade,RS,44.80401,20.46513,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+126,Vilnius,LT,54.68916,25.2798,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+127,Riga,LV,56.946,24.10589,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+128,Tallinn,EE,59.43696,24.75353,Europe,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+129,Reykjavik,IS,64.13548,-21.89541,Europe,GeoNames cities15000; cross-checked Wikipedia (64.14583/-21.94250)
+130,San Diego,US,32.71571,-117.16472,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+131,Philadelphia,US,39.95238,-75.16362,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+132,Phoenix,US,33.44838,-112.07404,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+133,Austin,US,30.26715,-97.74306,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+134,San Antonio,US,29.42412,-98.49363,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+135,San Jose,US,37.33939,-121.89496,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+136,Portland,US,45.52345,-122.67621,North America,GeoNames cities15000; cross-checked Wikipedia Portland OR (45.52000/-122.68194)
+137,Minneapolis,US,44.97997,-93.26384,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+138,Detroit,US,42.33143,-83.04575,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+139,Baltimore,US,39.29038,-76.61219,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+140,Las Vegas,US,36.17497,-115.13722,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+141,Nashville,US,36.16589,-86.78444,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+142,New Orleans,US,29.95465,-90.07507,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+143,Salt Lake City,US,40.76078,-111.89105,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+144,Ottawa,CA,45.41117,-75.69812,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+145,Calgary,CA,51.05011,-114.08529,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+146,Edmonton,CA,53.55014,-113.46871,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+147,Winnipeg,CA,49.8844,-97.14704,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+148,Guadalajara,MX,20.67738,-103.34749,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+149,Monterrey,MX,25.68435,-100.31721,North America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+150,Nanjing,CN,32.06167,118.77778,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+151,Tianjin,CN,39.14222,117.17667,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+152,Hangzhou,CN,30.29365,120.16142,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+153,Suzhou,CN,31.30408,120.59538,Asia-Pacific,GeoNames cities15000; cross-checked Wikipedia (31.30000/120.61944); confirmed Jiangsu not Anhui
+154,Shenyang,CN,41.79222,123.43278,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+155,Harbin,CN,45.75,126.65,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+156,Qingdao,CN,36.06488,120.38042,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+157,Nagoya,JP,35.18147,136.90641,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+158,Yokohama,JP,35.43333,139.65,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+159,Fukuoka,JP,33.6,130.41667,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+160,Sapporo,JP,43.06667,141.35,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+161,Busan,KR,35.10168,129.03004,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+162,Incheon,KR,37.45646,126.70515,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+163,Kaohsiung,TW,22.61626,120.31333,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+164,Hyderabad,IN,17.38405,78.45636,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+165,Chennai,IN,13.08784,80.27847,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+166,Kolkata,IN,22.56263,88.36304,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+167,Pune,IN,18.51957,73.85535,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+168,Ahmedabad,IN,23.02579,72.58727,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+169,Karachi,PK,24.8608,67.0104,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+170,Lahore,PK,31.558,74.35071,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+171,Islamabad,PK,33.72148,73.04329,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+172,Dhaka,BD,23.7104,90.40744,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+173,Colombo,LK,6.93548,79.84868,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+174,Kathmandu,NP,27.70169,85.3206,Asia-Pacific,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+175,Amman,JO,31.95522,35.94503,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+176,Beirut,LB,33.89332,35.50157,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+177,Kuwait City,KW,29.367,47.97429,Middle East/Africa,GeoNames cities15000; cross-checked Wikipedia (29.36972/47.97833)
+178,Manama,BH,26.22787,50.58565,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+179,Muscat,OM,23.58413,58.40778,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+180,Baghdad,IQ,33.34058,44.40088,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+181,Damascus,SY,33.5102,36.29128,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+182,Alexandria,EG,31.20176,29.91582,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+183,Tunis,TN,36.81897,10.16579,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+184,Algiers,DZ,36.73225,3.08746,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+185,Tripoli,LY,32.88743,13.18733,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+186,Addis Ababa,ET,9.02497,38.74689,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+187,Accra,GH,5.55602,-0.1969,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+188,Dakar,SN,14.6937,-17.44406,Middle East/Africa,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+189,Kinshasa,CD,-4.32758,15.31357,Middle East/Africa,GeoNames cities15000; cross-checked Wikipedia (-4.32194/15.31194)
+190,Medellin,CO,6.245,-75.57151,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+191,Cali,CO,3.43054,-76.5199,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+192,Guayaquil,EC,-2.19616,-79.88621,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+193,La Paz,BO,-16.5,-68.15,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+194,Asuncion,PY,-25.28646,-57.647,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+195,Curitiba,BR,-25.42778,-49.27306,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+196,Salvador,BR,-12.97563,-38.49096,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+197,Belo Horizonte,BR,-19.92083,-43.93778,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+198,Porto Alegre,BR,-30.03283,-51.23019,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)
+199,Maracaibo,VE,10.64232,-71.61089,South America,GeoNames cities15000 (download.geonames.org export 2026-07-29 snapshot)

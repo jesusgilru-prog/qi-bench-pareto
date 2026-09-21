@@ -1,0 +1,30 @@
+{
+  "description": "HV of the category-native-operator baseline (4 densities) and the decoder's own NSGA-II, both computed under ONE shared reference front/normalisation (unlike their block-specific own numbers elsewhere), same 10 seeds (42-51) both sides.",
+  "decoder_nsga2": {
+    "mean": 0.6347533162152577,
+    "std": 0.052429098441783534,
+    "n_seeds": 10
+  },
+  "categorical_operators": {
+    "d03": {
+      "mean": 0.14776271140585545,
+      "std": 0.01890293373467075,
+      "n_seeds": 10
+    },
+    "d10": {
+      "mean": 0.009515133163881705,
+      "std": 0.0020820213698727317,
+      "n_seeds": 10
+    },
+    "d11_decoder_median": {
+      "mean": 0.01072677429911413,
+      "std": 0.0022822821870409895,
+      "n_seeds": 10
+    },
+    "d15": {
+      "mean": 0.015212583237455325,
+      "std": 0.001432267594752215,
+      "n_seeds": 10
+    }
+  }
+}

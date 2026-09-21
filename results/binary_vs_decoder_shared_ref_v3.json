@@ -1,0 +1,43 @@
+{
+  "decoder_nsga2": {
+    "hv_mean": 0.6616449561361086,
+    "hv_std": 0.04584118866645361,
+    "igd_mean": 0.043272148364739645,
+    "igd_std": 0.016405840383187115,
+    "spacing_mean": 0.014490998303177561,
+    "spacing_std": 0.003902733563053578,
+    "npar_mean": 89.93333333333334,
+    "npar_std": 3.5226687897528564
+  },
+  "decoder_nsga3": {
+    "hv_mean": 0.6404880511623424,
+    "hv_std": 0.0419420896208669,
+    "igd_mean": 0.0532750149959395,
+    "igd_std": 0.015048252771979175,
+    "spacing_mean": 0.02514389898208981,
+    "spacing_std": 0.021412583673964227,
+    "npar_mean": 65.06666666666666,
+    "npar_std": 6.263927011803011
+  },
+  "categorical_nsga2": {
+    "hv_mean": 0.1253149944533763,
+    "hv_std": 0.02245670743799997,
+    "igd_mean": 0.6657366249227535,
+    "igd_std": 0.02108894081475241,
+    "spacing_mean": 0.029706388359984022,
+    "spacing_std": 0.036991834786350354,
+    "npar_mean": 64.6,
+    "npar_std": 16.4894950885666
+  },
+  "categorical_nsga3": {
+    "hv_mean": 0.12387396264742938,
+    "hv_std": 0.017925802463634576,
+    "igd_mean": 0.6782213801840137,
+    "igd_std": 0.018100707759213318,
+    "spacing_mean": 0.13852922652088953,
+    "spacing_std": 0.09592538838086331,
+    "npar_mean": 10.066666666666666,
+    "npar_std": 2.083321839048751
+  },
+  "note": "All four rows computed against the SAME shared, deduplicated reference front (pooled decoder + categorical, all seeds), so HV/IGD are directly comparable across rows. npar is each condition's own deduplicated per-run cardinality, mean/std over 30 seeds."
+}

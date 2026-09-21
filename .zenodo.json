@@ -1,0 +1,38 @@
+{
+  "title": "QI-Bench-Pareto: Many-Objective Optimisation of Global Quantum Internet Topologies",
+  "description": "Reproducibility package (code, data and results) for the article 'Many-Objective Optimisation of Global Quantum Internet Topologies: A Compact Parametric Representation with an Analytical BDCZ Oracle', accepted for publication in Entropy (MDPI), 2026. Contains the analytical BDCZ oracle, the 11-variable parametric decoder, all experiment scripts, the pooled seven-algorithm non-dominated front (561 unique objective vectors, 944 structurally distinct topologies, with per-point algorithm/seed provenance), the JSON results behind every table and figure, and the figure-generation code. Code is MIT-licensed (LICENSE-CODE); data (cities.csv, results/) is CC-BY-4.0 (LICENSE-DATA).",
+  "creators": [
+    {
+      "name": "Gil Ruiz, Jesús",
+      "affiliation": "Science and Aerospace Department, Universidad Europea de Madrid, Spain; Universidad Alfonso X el Sabio, Spain; Universidad Internacional de Valencia (VIU), Spain",
+      "orcid": "0000-0003-0675-2038"
+    },
+    {
+      "name": "Rodríguez Regadera, Diego Rubén",
+      "affiliation": "Science and Aerospace Department, Universidad Europea de Madrid, Spain",
+      "orcid": "0000-0003-3808-6754"
+    },
+    {
+      "name": "Muñoz Gil, Rafael",
+      "affiliation": "Science and Aerospace Department, Universidad Europea de Madrid, Spain"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "quantum internet",
+    "many-objective optimisation",
+    "evolutionary algorithms",
+    "NSGA-II",
+    "NSGA-III",
+    "MOEA/D",
+    "SMS-EMOA",
+    "RVEA",
+    "SPEA2",
+    "AGE-MOEA-II",
+    "BDCZ repeater protocol",
+    "quantum network topology design"
+  ],
+  "notes": "Dual-licensed by content type: code/ is MIT (LICENSE-CODE); cities.csv and results/ are CC-BY-4.0 (LICENSE-DATA). Zenodo's deposit-level license field records CC-BY-4.0 because most of the archived content is data; it does not restrict reuse of the separately MIT-licensed code."
+}

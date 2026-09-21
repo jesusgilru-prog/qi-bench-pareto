@@ -1,0 +1,50 @@
+{
+  "description": "Structural connectivity of the 659 deduplicated Pareto-front points, computed on the same best-medium adjacency the oracle uses for path search. \"Reachable\" = some path exists (the set the fidelity/rate/latency means are taken over); \"covered\" = reachable AND end-to-end fidelity >= 0.70 (the coverage objective).",
+  "n_points": 561,
+  "n_cities": 100,
+  "total_city_pairs": 4950,
+  "fidelity_threshold": 0.7,
+  "connected_components": {
+    "min": 2,
+    "median": 5.0,
+    "mean": 14.577540106951872,
+    "max": 69,
+    "fraction_fully_connected": 0.0
+  },
+  "giant_component_size": {
+    "min": 7,
+    "median": 66.0,
+    "mean": 59.11942959001782,
+    "max": 98
+  },
+  "reachable_fraction": {
+    "min": 0.012525252525252526,
+    "median": 0.5084848484848485,
+    "mean": 0.481970147103837,
+    "max": 0.9604040404040404
+  },
+  "covered_fraction": {
+    "min": 0.012525252525252526,
+    "median": 0.21212121212121213,
+    "mean": 0.17739390338320818,
+    "max": 0.2632323232323232
+  },
+  "operational_bands": {
+    "fraction_reachable_ge_0.99": 0.0,
+    "fraction_reachable_ge_0.90": 0.28520499108734404,
+    "fraction_reachable_ge_0.50": 0.5401069518716578,
+    "fraction_reachable_lt_0.10": 0.21212121212121213,
+    "fraction_coverage_lt_0.01": 0.0
+  },
+  "sparse_solutions": {
+    "note": "front points with fewer than 20 stored edges -- the regime the review flagged as \"17-18 edges, coverage near zero\"",
+    "count": 0,
+    "median_reachable_fraction": null,
+    "median_components": null,
+    "max_covered_fraction": null
+  },
+  "edges_vs_reachable_spearman": {
+    "rho": 0.9443487863115907,
+    "p": 4.220433060947889e-272
+  }
+}

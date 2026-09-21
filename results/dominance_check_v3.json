@@ -1,0 +1,76 @@
+{
+  "n_classical": 14,
+  "n_dominated": 13,
+  "rows": [
+    {
+      "name": "MST",
+      "n_edges": 99,
+      "dominated": true
+    },
+    {
+      "name": "k-NN k3",
+      "n_edges": 197,
+      "dominated": true
+    },
+    {
+      "name": "k-NN k5",
+      "n_edges": 330,
+      "dominated": true
+    },
+    {
+      "name": "k-NN k7",
+      "n_edges": 479,
+      "dominated": true
+    },
+    {
+      "name": "k-NN k10",
+      "n_edges": 668,
+      "dominated": true
+    },
+    {
+      "name": "RGG thr500",
+      "n_edges": 85,
+      "dominated": true
+    },
+    {
+      "name": "RGG thr1000",
+      "n_edges": 280,
+      "dominated": true
+    },
+    {
+      "name": "RGG thr2000",
+      "n_edges": 658,
+      "dominated": true
+    },
+    {
+      "name": "RGG thr3000",
+      "n_edges": 910,
+      "dominated": true
+    },
+    {
+      "name": "RGG thr5000",
+      "n_edges": 1356,
+      "dominated": false
+    },
+    {
+      "name": "Hub-and-spoke hubs5",
+      "n_edges": 485,
+      "dominated": true
+    },
+    {
+      "name": "Hub-and-spoke hubs10",
+      "n_edges": 945,
+      "dominated": true
+    },
+    {
+      "name": "Hub-and-spoke hubs15",
+      "n_edges": 1380,
+      "dominated": true
+    },
+    {
+      "name": "Region-MST",
+      "n_edges": 105,
+      "dominated": true
+    }
+  ]
+}

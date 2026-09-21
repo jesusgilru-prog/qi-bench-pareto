@@ -1,0 +1,165 @@
+{
+  "description": "Directional cross-check of BDCZ oracle's fibre transmittance-vs-distance law against SeQUeNCe's independent discrete-event simulation of the same midpoint-heralded (DLCZ/BDCZ) elementary-link protocol. Validates RATE direction only -- see module docstring for why fidelity is out of scope for this specific cross-check.",
+  "sequence_version": "0.8.5",
+  "fiber_attenuation_db_per_km": 0.2,
+  "sim_time_ms": 50,
+  "n_memories_per_node": 50,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "distances_km": [
+    1,
+    5,
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "per_distance": {
+    "1": {
+      "counts_per_seed": [
+        48,
+        47,
+        42,
+        44,
+        45,
+        49,
+        48,
+        48,
+        46,
+        50
+      ],
+      "median_count": 47.5,
+      "mean_count": 46.7
+    },
+    "5": {
+      "counts_per_seed": [
+        42,
+        40,
+        40,
+        37,
+        46,
+        46,
+        42,
+        41,
+        45,
+        41
+      ],
+      "median_count": 41.5,
+      "mean_count": 42.0
+    },
+    "10": {
+      "counts_per_seed": [
+        34,
+        31,
+        29,
+        32,
+        34,
+        36,
+        40,
+        32,
+        30,
+        29
+      ],
+      "median_count": 32.0,
+      "mean_count": 32.7
+    },
+    "20": {
+      "counts_per_seed": [
+        21,
+        17,
+        17,
+        18,
+        20,
+        20,
+        16,
+        18,
+        19,
+        20
+      ],
+      "median_count": 18.5,
+      "mean_count": 18.6
+    },
+    "30": {
+      "counts_per_seed": [
+        5,
+        7,
+        8,
+        7,
+        7,
+        8,
+        13,
+        6,
+        3,
+        6
+      ],
+      "median_count": 7.0,
+      "mean_count": 7.0
+    },
+    "40": {
+      "counts_per_seed": [
+        3,
+        0,
+        4,
+        1,
+        8,
+        2,
+        7,
+        5,
+        6,
+        2
+      ],
+      "median_count": 3.5,
+      "mean_count": 3.8
+    },
+    "50": {
+      "counts_per_seed": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2
+      ],
+      "median_count": 1.0,
+      "mean_count": 1.1
+    }
+  },
+  "median_counts_by_distance": [
+    47.5,
+    41.5,
+    32.0,
+    18.5,
+    7.0,
+    3.5,
+    1.0
+  ],
+  "n_monotonicity_violations": 0,
+  "sequence_rate_is_monotone_nonincreasing": true,
+  "analytical_eta_by_distance": [
+    0.954992586021436,
+    0.7943282347242815,
+    0.6309573444801932,
+    0.3981071705534972,
+    0.251188643150958,
+    0.15848931924611134,
+    0.1
+  ],
+  "analytical_rate_is_monotone_nonincreasing": true,
+  "directional_agreement": true,
+  "spearman_rho_sequence_vs_analytical": 1.0
+}

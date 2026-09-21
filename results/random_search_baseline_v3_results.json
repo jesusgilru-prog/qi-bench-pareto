@@ -1,0 +1,48 @@
+{
+  "description": "i.i.d. uniform random sampling over the same 11-variable bounds, same 8,320-evaluation budget, same oracle, 30 seeds. HV computed against this baseline's OWN pooled reference front (not directly comparable to Table 3's HV without a shared-reference re-score, same caveat as every other representation-comparison block in this paper).",
+  "config": {
+    "n_evals": 8320,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  "summary": {
+    "hv": {
+      "mean": 0.5488128069188277,
+      "std": 0.028821928971411892
+    },
+    "n_pareto": {
+      "mean": 73.33333333333333,
+      "std": 7.734086368409845
+    }
+  }
+}

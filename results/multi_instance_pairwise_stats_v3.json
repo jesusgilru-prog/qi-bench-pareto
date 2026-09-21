@@ -1,0 +1,175 @@
+{
+  "description": "NSGA-II vs. NSGA-III pairwise HV comparison per additional instance, using a reference front/normalisation built from ONLY these two algorithms' pooled checkpoints for that instance (distinct from multi_instance_v3_results.json's all-five-algorithm reference front). The four instances are Holm-corrected jointly as one family; uncorrected p-values are retained for transparency. Cliff's delta and a 20,000-resample percentile bootstrap CI on the mean HV difference are reported so non-significant instances can be read as effect-size estimates rather than as evidence of no effect.",
+  "family_correction": "Holm-Bonferroni over the 4 per-instance tests",
+  "bootstrap": {
+    "n_resamples": 20000,
+    "seed": 20260730,
+    "level": 0.95
+  },
+  "per_instance": {
+    "global_n50": {
+      "nsga2_hv_mean": 0.3729704315537473,
+      "nsga2_hv_std": 0.040176806827021995,
+      "nsga3_hv_mean": 0.3474777484468763,
+      "nsga3_hv_std": 0.0269052421955454,
+      "mean_diff_nsga2_minus_nsga3": 0.025492683106871028,
+      "mean_diff_bootstrap_ci95": [
+        -0.0013490729213007618,
+        0.05506248276994409
+      ],
+      "cliffs_delta_nsga2_vs_nsga3": 0.46,
+      "mannwhitney_u": 73.0,
+      "mannwhitney_p": 0.08897301170181328,
+      "n_seeds": 10,
+      "hv_raw_nsga2": [
+        0.3582398268272945,
+        0.37197813389043277,
+        0.351354634497713,
+        0.46837536106783945,
+        0.3533427046850868,
+        0.3622392600583717,
+        0.3729672654208621,
+        0.40415731536887367,
+        0.3158377406242395,
+        0.37121207309675963
+      ],
+      "hv_raw_nsga3": [
+        0.33756535908010676,
+        0.3546836228800029,
+        0.36027822694313283,
+        0.3723785284667348,
+        0.3396626480711926,
+        0.3007872311100293,
+        0.3311212363533039,
+        0.33525365892776726,
+        0.34180389464277355,
+        0.4012430779937185
+      ],
+      "mannwhitney_p_holm": 0.26691903510543985,
+      "significant_holm_005": false
+    },
+    "regional_eu_na": {
+      "nsga2_hv_mean": 0.798727880295915,
+      "nsga2_hv_std": 0.02778866973017196,
+      "nsga3_hv_mean": 0.7881930950218163,
+      "nsga3_hv_std": 0.024159393623973725,
+      "mean_diff_nsga2_minus_nsga3": 0.01053478527409868,
+      "mean_diff_bootstrap_ci95": [
+        -0.012278681731617525,
+        0.0348414524939588
+      ],
+      "cliffs_delta_nsga2_vs_nsga3": 0.82,
+      "mannwhitney_u": 91.0,
+      "mannwhitney_p": 0.0022022199424970783,
+      "n_seeds": 10,
+      "hv_raw_nsga2": [
+        0.7873430672609534,
+        0.8774379276751313,
+        0.7921975096751318,
+        0.7917449586004561,
+        0.7864369826375524,
+        0.7933566498740812,
+        0.7924152342990631,
+        0.7868327519067422,
+        0.7921423137252339,
+        0.7873714073048033
+      ],
+      "hv_raw_nsga3": [
+        0.7795232660626777,
+        0.8567420558434264,
+        0.7819750627384936,
+        0.7788631242372115,
+        0.7831687864327819,
+        0.7814484996420962,
+        0.7791137873105523,
+        0.782812245551338,
+        0.7810506495017784,
+        0.777233472897807
+      ],
+      "mannwhitney_p_holm": 0.008808879769988313,
+      "significant_holm_005": true
+    },
+    "metro_europe": {
+      "nsga2_hv_mean": 0.03576869204810486,
+      "nsga2_hv_std": 0.0007641036098457471,
+      "nsga3_hv_mean": 0.04730197331224459,
+      "nsga3_hv_std": 0.03696984583327283,
+      "mean_diff_nsga2_minus_nsga3": -0.01153328126413973,
+      "mean_diff_bootstrap_ci95": [
+        -0.035171213266950156,
+        0.000723632951656217
+      ],
+      "cliffs_delta_nsga2_vs_nsga3": -0.06,
+      "mannwhitney_u": 47.0,
+      "mannwhitney_p": 0.8501067391385259,
+      "n_seeds": 10,
+      "hv_raw_nsga2": [
+        0.03560635534128477,
+        0.03665913753169646,
+        0.035605355193453286,
+        0.035781635680407375,
+        0.036174434539737,
+        0.0360388408236081,
+        0.03592950373594637,
+        0.036467448222156675,
+        0.035555939573621034,
+        0.033868269839137474
+      ],
+      "hv_raw_nsga3": [
+        0.03599708479443151,
+        0.03606460668470067,
+        0.03553815289086386,
+        0.03581103832419993,
+        0.03630994671897027,
+        0.03556310824094339,
+        0.03601748102818691,
+        0.036208828869096064,
+        0.15248532879628848,
+        0.03302415677476472
+      ],
+      "mannwhitney_p_holm": 1.0,
+      "significant_holm_005": false
+    },
+    "global_n200": {
+      "nsga2_hv_mean": 0.4393639473251582,
+      "nsga2_hv_std": 0.06842313499194684,
+      "nsga3_hv_mean": 0.4537047963861521,
+      "nsga3_hv_std": 0.06193693807922161,
+      "mean_diff_nsga2_minus_nsga3": -0.014340849060993865,
+      "mean_diff_bootstrap_ci95": [
+        -0.06855481103858042,
+        0.03901137316488888
+      ],
+      "cliffs_delta_nsga2_vs_nsga3": -0.08,
+      "mannwhitney_u": 46.0,
+      "mannwhitney_p": 0.7913367801006604,
+      "n_seeds": 10,
+      "hv_raw_nsga2": [
+        0.317069818373504,
+        0.45338928272971213,
+        0.543123788028518,
+        0.5001237588225066,
+        0.4597577930822194,
+        0.45682326795575323,
+        0.43171002841673656,
+        0.4614509302861271,
+        0.4369017798316771,
+        0.3332890257248282
+      ],
+      "hv_raw_nsga3": [
+        0.44577442472103934,
+        0.451386568804091,
+        0.5104608468331449,
+        0.36096565016333837,
+        0.36271666451465256,
+        0.43957418392677083,
+        0.4120651340591451,
+        0.5174381085713987,
+        0.520285815420087,
+        0.5163805668478532
+      ],
+      "mannwhitney_p_holm": 1.0,
+      "significant_holm_005": false
+    }
+  }
+}

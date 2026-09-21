@@ -1,0 +1,91 @@
+{
+  "n_points": 561,
+  "n_points_description": "unique objective vectors (deduplicated Pareto front, objective space)",
+  "n_raw_records_pre_dedup": 988,
+  "n_pooled_before_dominance_filter": 13530,
+  "n_unique_topologies": 944,
+  "n_unique_topologies_description": "structurally distinct decoded edge sets among the raw non-dominated pool (design space, before objective-vector dedup) -- see global_pareto_v3_provenance.json for full per-point algorithm/seed provenance",
+  "by_source_algorithm": {
+    "nsga2": 110,
+    "nsga3": 95,
+    "moead": 10,
+    "sms_emoa": 119,
+    "rvea": 12,
+    "spea2": 97,
+    "age_moea2": 118
+  },
+  "by_source_algorithm_description": "count of unique objective vectors whose FIRST-SEEN (algo,seed) occurrence was this algorithm, in a fixed iteration order -- kept for backward-compatible plotting only; exclusive_objective_vectors_by_algorithm below is the scientifically meaningful figure (does not depend on iteration order)",
+  "exclusive_objective_vectors_by_algorithm": {
+    "nsga2": 96,
+    "nsga3": 63,
+    "moead": 10,
+    "sms_emoa": 109,
+    "rvea": 12,
+    "spea2": 97,
+    "age_moea2": 118
+  },
+  "shared_objective_vectors_2plus_algorithms": 56,
+  "ranges": {
+    "fidelity": [
+      0.6124667003171707,
+      0.8656269830232268
+    ],
+    "log_rate": [
+      3.5240397807215116,
+      9.6966423999662
+    ],
+    "latency_s": [
+      0.004063239971112227,
+      0.06329299626411476
+    ],
+    "coverage": [
+      0.012525252525252526,
+      0.2632323232323232
+    ]
+  },
+  "correlations": {
+    "rate_vs_latency": -0.9735941094170276,
+    "rate_vs_coverage": -0.959176520178275,
+    "fidelity_vs_rate": 0.9723960614569933
+  },
+  "resource_use": {
+    "n_edges_raw_medium_specific": {
+      "min": 37,
+      "median": 1049.0,
+      "mean": 808.2317290552585,
+      "max": 1765,
+      "description": "counts each (pair, medium) separately -- a pair with 2 media counts as 2"
+    },
+    "n_edges_unique_city_pairs": {
+      "min": 36,
+      "median": 971.0,
+      "mean": 782.2245989304813,
+      "max": 1221,
+      "description": "unique (u,v) pairs connected by at least one medium -- directly comparable to classical baselines, which have exactly one medium per pair"
+    },
+    "n_edges_effective_oracle": {
+      "min": 36,
+      "median": 971.0,
+      "mean": 782.2245989304813,
+      "max": 1221,
+      "description": "edges actually used for routing after collapsing parallel media per pair to the highest-fidelity one (equals n_edges_unique_city_pairs by construction)"
+    },
+    "n_edges": {
+      "min": 37,
+      "median": 1049.0,
+      "mean": 808.2317290552585,
+      "max": 1765
+    },
+    "pooled_fraction_fibre": 0.12412167139372499,
+    "pooled_fraction_satellite": 0.870574172176667,
+    "pooled_fraction_fso": 0.005304156429607999,
+    "pooled_fraction_description": "sum(edges of medium)/sum(all edges) across the whole Pareto front, equivalently mean(n_medium)/mean(n_edges) -- implicitly weights larger topologies more heavily",
+    "per_topology_fraction_mean_fibre": 0.2527481790592174,
+    "per_topology_fraction_std_fibre": 0.2535480882475605,
+    "per_topology_fraction_mean_satellite": 0.7350322972126249,
+    "per_topology_fraction_std_satellite": 0.26600966363858003,
+    "per_topology_fraction_mean_fso": 0.01221952372815764,
+    "per_topology_fraction_std_fso": 0.018542927161509876,
+    "per_topology_fraction_description": "mean +/- std of each topology's OWN medium fraction, then averaged across topologies -- every topology weighted equally regardless of size"
+  }
+}

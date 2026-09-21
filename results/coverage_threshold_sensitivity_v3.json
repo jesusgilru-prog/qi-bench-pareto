@@ -1,0 +1,43 @@
+{
+  "description": "Coverage (C_tau) recomputed at 5 fidelity thresholds for every point on the pooled evolutionary front, by re-decoding each stored parameter vector and re-running the canonical exact path search (not a proxy). Tests whether the canonical threshold (0.70) is a load-bearing, arbitrary choice.",
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "n_points": 561,
+  "coverage_mean_by_threshold": {
+    "0.5": 0.3855737409748105,
+    "0.6": 0.26859900250274577,
+    "0.7": 0.17739390338320818,
+    "0.8": 0.15977097174958135,
+    "0.9": 0.00602207457822431
+  },
+  "coverage_std_by_threshold": {
+    "0.5": 0.24778065430829216,
+    "0.6": 0.14905065111942384,
+    "0.7": 0.09115477480294164,
+    "0.8": 0.09225037896367344,
+    "0.9": 0.00017340478761536363
+  },
+  "spearman_rank_correlation_vs_baseline_0.70": {
+    "0.5": {
+      "spearman_rho_vs_0.70": 0.9957438468314999,
+      "p": 0.0
+    },
+    "0.6": {
+      "spearman_rho_vs_0.70": 0.9952562473026614,
+      "p": 0.0
+    },
+    "0.8": {
+      "spearman_rho_vs_0.70": 0.9949283728717759,
+      "p": 0.0
+    },
+    "0.9": {
+      "spearman_rho_vs_0.70": 0.19782310902295822,
+      "p": 2.337461209958329e-06
+    }
+  }
+}

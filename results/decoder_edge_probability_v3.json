@@ -1,0 +1,62 @@
+{
+  "description": "Effective per-pair edge-inclusion probability of the topology decoder. Pairs that are mutual k-NN receive two independent Bernoulli(p) draws (one per endpoint visit) and are stored in a canonicalised set, so their effective inclusion probability is 1-(1-p)^2; pairs appearing in only one endpoint's list keep p. Monte-Carlo run against the actual decode_topology() used for every result in the paper.",
+  "monte_carlo_config": {
+    "trials": 400,
+    "rng_base": 1000,
+    "k_fibre": 3,
+    "max_d_fibre_km": 3000.0,
+    "satellite_and_fso_disabled": true
+  },
+  "candidate_pair_census": {
+    "k3_maxd3000": {
+      "k_fibre": 3,
+      "max_d_fibre_km": 3000.0,
+      "distinct_candidate_pairs": 186,
+      "mutual_knn_pairs": 103,
+      "mutual_fraction": 0.553763440860215
+    },
+    "k5_maxd5000": {
+      "k_fibre": 5,
+      "max_d_fibre_km": 5000.0,
+      "distinct_candidate_pairs": 319,
+      "mutual_knn_pairs": 170,
+      "mutual_fraction": 0.5329153605015674
+    },
+    "k8_maxd8000": {
+      "k_fibre": 8,
+      "max_d_fibre_km": 8000.0,
+      "distinct_candidate_pairs": 538,
+      "mutual_knn_pairs": 262,
+      "mutual_fraction": 0.48698884758364314
+    }
+  },
+  "monte_carlo": {
+    "p0.25": {
+      "p_nominal": 0.25,
+      "expected_mutual": 0.4375,
+      "observed_mutual_mean": 0.4386650485436892,
+      "n_mutual_pairs": 103,
+      "expected_one_sided": 0.25,
+      "observed_one_sided_mean": 0.2537349397590361,
+      "n_one_sided_pairs": 83
+    },
+    "p0.5": {
+      "p_nominal": 0.5,
+      "expected_mutual": 0.75,
+      "observed_mutual_mean": 0.7521116504854369,
+      "n_mutual_pairs": 103,
+      "expected_one_sided": 0.5,
+      "observed_one_sided_mean": 0.5007530120481928,
+      "n_one_sided_pairs": 83
+    },
+    "p0.75": {
+      "p_nominal": 0.75,
+      "expected_mutual": 0.9375,
+      "observed_mutual_mean": 0.9388106796116505,
+      "n_mutual_pairs": 103,
+      "expected_one_sided": 0.75,
+      "observed_one_sided_mean": 0.7498192771084337,
+      "n_one_sided_pairs": 83
+    }
+  }
+}

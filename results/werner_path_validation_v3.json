@@ -1,0 +1,21 @@
+{
+  "description": "Validation of the maximum Werner-composed-fidelity path search. Under w=(4F-1)/3 the swap composition is an exact product (w12=w1*w2), so an exact additive shortest-path formulation with weights -log w exists; -log F is the proxy that does NOT preserve optimality. Checks: (1) the substitution identity; (2) agreement between the oracle's Dijkstra-like relaxation and a -log w shortest path on the paper's own 100-city instance; (3) agreement of both with exhaustive enumeration on small random graphs.",
+  "rng_seed": 20260730,
+  "substitution_identity_max_abs_error": 2.220446049250313e-16,
+  "paper_instance": {
+    "topologies_checked": 8,
+    "reachable_pairs_checked": 18364,
+    "max_abs_fidelity_difference_oracle_vs_neglogw": 3.3306690738754696e-16,
+    "proxy_neglogF_suboptimal_pairs": 3269,
+    "proxy_neglogF_suboptimal_fraction": 0.17801132650838597
+  },
+  "small_random_graphs": {
+    "n_graphs": 200,
+    "nodes_per_graph": 7,
+    "pairs_checked": 3925,
+    "max_abs_diff_oracle_vs_exhaustive": 0.0,
+    "max_abs_diff_neglogw_vs_exhaustive": 2.220446049250313e-16
+  },
+  "tolerance": 1e-09,
+  "all_checks_pass": true
+}
