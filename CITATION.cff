@@ -16,6 +16,7 @@ authors:
 version: "1.1.0"
 date-released: "2026-09-21"
 repository-code: "https://github.com/jesusgilru-prog/qi-bench-pareto"
+doi: "10.5281/zenodo.22873153"
 license:
   - MIT
   - CC-BY-4.0

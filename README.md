@@ -5,6 +5,8 @@ Internet Topologies: A Compact Parametric Representation with an Analytical
 BDCZ Oracle"* (Jesús Gil Ruiz, Diego Rubén Rodríguez Regadera and Rafael Muñoz Gil;
 accepted for publication in *Entropy*, MDPI, 2026).
 
+**Archive:** GitHub `jesusgilru-prog/qi-bench-pareto` · Zenodo concept DOI [10.5281/zenodo.22873153](https://doi.org/10.5281/zenodo.22873153) (latest version) · this release v1.1.0: [10.5281/zenodo.22873154](https://doi.org/10.5281/zenodo.22873154).
+
 ## Contents
 
 ```
